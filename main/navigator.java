@@ -6,11 +6,11 @@ package main;
  */
 public class navigator {
 
-
-    /**
-     * let`s go
-     */
     public static void main(String args[]) {
         System.out.println("navigator");
+        variables variables=new variables();
+        variables.Start();
     }
+
+
 }
